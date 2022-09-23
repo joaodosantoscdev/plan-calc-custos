@@ -1,0 +1,29 @@
+table {
+  margin-bottom: 0 !important;
+  min-width: 30%;
+}
+
+div.table-title {
+  overflow: hidden;
+  height: 100%;
+}
+
+div.bordered {
+  border-radius: 5px !important;
+  border: 2px solid #000;
+}
+
+tr {
+  th:first-child {
+    width: 15em;
+  }
+}
+
+th {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+
+  &.cell-head {
+    text-align: center;
+  }
+}

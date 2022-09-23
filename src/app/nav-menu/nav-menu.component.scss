@@ -1,0 +1,35 @@
+
+
+div.sidenav {
+  position: fixed;
+  background-color: #111;
+  height: 100%;
+  font-size: 0.75em;
+
+
+  span {
+    color: #818181;
+    text-decoration: none;
+  }
+  ul {
+    margin-top: 2em;
+    &.menu-list {
+      padding-left: 0;
+    }
+  }
+
+  li {
+    padding: 1.25em;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.10em;
+    color: #818181;
+    text-align: center;
+
+
+    &:hover {
+      transition: all .3s ease-in-out;
+      color: #fff;
+    }
+  }
+}
